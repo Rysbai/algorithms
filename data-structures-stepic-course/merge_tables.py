@@ -33,16 +33,6 @@ class TablesTree(list):
             if total > self.max_amount:
                 self.max_amount = total
 
-        print(self.max_amount)
-
-
-# n, m = (int(x) for x in input().split(' '))
-#
-# table_tree = TablesTree(input())
-#
-# for i in range(n):
-#     destination, source = (int(x) for x in input().split(' '))
-#     table_tree.merge(destination, source)
 
 n, m = 5, 5
 tables = '1 1 1 1 1'
